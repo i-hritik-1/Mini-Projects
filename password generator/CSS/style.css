@@ -147,7 +147,6 @@ h1{
     padding: 1rem 0;
     background-color: var(--vb-violet);
     text-align: center;
-    /* border: none; */
     border-radius: 0.75rem;
     border-bottom: 0.35rem solid var(--vb-yellow);
     text-transform: uppercase;
@@ -155,6 +154,7 @@ h1{
     color: var(--vb-yellow);
     font-weight: 600;
     font-size: 1.25rem;
+    cursor: pointer;
     outline: none;
     
 }
@@ -199,6 +199,7 @@ h1{
 
 .copybtn{
     background-color: transparent;
+    /* cursor: pointer; */
     border:none;
     outline:none;
 }
@@ -245,6 +246,7 @@ h1{
 .copy{
     position: absolute;
     background-color: var(--vb-violet2);
+    /* cursor: pointer; */
     color: var(--vb-yellow);
     font-size: 1.25rem;
     top: -35px;
@@ -260,4 +262,8 @@ h1{
 .copy.active {
     opacity: 1;
     transform: scale(1);
-  }
+}
+
+.cobybtn img {
+    cursor: pointer;
+}
